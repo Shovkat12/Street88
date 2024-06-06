@@ -1,0 +1,182 @@
+@import url(./fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.site-upper-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 245px;
+    padding-right: 245px;
+    background-color: #0C0C0C;
+    font-family: "RobotoRegular";
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+.upper-header-left{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
+.upper-header_list{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    color: white;
+}
+.list-item_link{
+    text-align: right;
+    font-family: "RobotoRegular";
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.site-lower-header{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 258px;
+    padding-left: 245px;
+    align-items: center;
+    height: 65px;
+    background-color: #0C0C0C;
+    border-top: 1px solid rgba(125, 115, 115, 0.50);
+    border-bottom: 1px solid rgba(125, 115, 115, 0.50);
+
+}
+.lower-header-list{
+    display: flex;
+    align-items: center;
+}
+.lower-header_logo{
+    color: #FFF;
+    text-align: center;
+    font-family: "RobotoBold";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 30px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 216px;
+    height: 53px;
+    border-radius: 4px;
+    border: 4px solid #06600F;
+    background-color: rgba(10, 148, 24, 0.75);
+}
+.lower-list_link{
+    width: 93px;
+    height: 65px;
+    color: #FFF;
+    text-align: center;
+    font-family: "RalewayRegular";
+    font-size: 18px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+.lower-list_link:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(105, 207, 23, 0.75);
+}
+.site-hero{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 245px;
+    padding-right: 245px;
+    background-image: url("../img/food-burger-wallpaper-preview\ 1.jpg");
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-title{
+    color: #69CF17;
+    font-family: "RalewayBlack";
+    font-size: 72px;
+    font-weight: 900;
+}
+.hero-text{
+    color: #69CF17;
+    font-family: "RalewayRegular";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 17px;
+}
+.hero-description{
+    display: inline-block;
+    color: #FFF;
+    font-family: "RalewayRegular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 1110px;
+    height: 72px;
+}
+.hero-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 285px;
+    height: 103px;
+    background-color: rgba(105, 207, 23, 0.50);
+    backdrop-filter: blur(9px);
+    color: #FFF;
+    font-family: "RalewayThin";
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 25px;
+}
+.hero-button{
+    display: inline-block;
+    width: 255px;
+    height: 51px;
+    border-radius: 6px;
+    background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+    color: #FFF;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "RalewayRegular";
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.4s;
+}
+.hero-button:hover{
+    border: 2px solid #69CF17;
+    background: transparent;
+    color:  #69CF17;
+}
+.hero-button:active{
+    opacity: 0.7;
+}
