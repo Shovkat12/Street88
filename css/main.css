@@ -58,7 +58,7 @@ ul{
     display: flex;
     align-items: center;
 }
-.lower-header_logo{
+.logo{
     color: #FFF;
     text-align: center;
     font-family: "RobotoBold";
@@ -103,6 +103,10 @@ ul{
     padding-left: 245px;
     padding-right: 245px;
     background-image: url("../img/food-burger-wallpaper-preview\ 1.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: 100%;
 }
 .hero-container{
     display: flex;
@@ -179,4 +183,126 @@ ul{
 }
 .hero-button:active{
     opacity: 0.7;
+}
+.hero-line{
+    height: 50px;
+    background-color: #0C0C0C;
+}
+.main-section{
+    height: 1171px;
+    background-color: #393636;
+    padding-top: 78px;
+    padding-left: 6px; 
+    padding-right: 6px; 
+}
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+.container-card{
+    width: 370px;
+    height: 524px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    background-color: #0C0C0C;
+    padding: 15px 16px 15px 16px;
+}
+.card-img{
+    width: 100%;
+    background-image: url("../img/unnamed\ 1.png");
+    height: 325px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+}
+.card-img:hover{
+    background-image: url("../img/unnamed\ 2.png");
+
+}
+.card-title{
+    color: #FFF;
+    font-family: "RalewayBold";
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card-description{
+    color: #FFF;
+    font-family: "RalewayRegular";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.hero-line{
+    width: 100%;
+}
+.main-philials{
+    height: 580px;
+}
+.philials-title{
+    color: #69CF17;
+    font-family: "RalewayBold";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.philials-img{
+    width: 100%;
+}
+.footer{
+    height: 325px;
+    background: linear-gradient(180deg, #000 0%, rgba(60, 108, 18, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.footer-logo-fax{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.footer-fax{
+    color: #FFF;
+    text-align: right;
+    font-family: "RobotoBold";
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer-list{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 81px;
+}
+.item-link{
+    color: #FFF;
+    text-align: center;
+    font-family: "RobotoRegular";
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer-readme{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "RobotoRegular";
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    background-color: #1A3406;
 }
